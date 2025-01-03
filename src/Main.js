@@ -32,7 +32,7 @@ const Main = () => {
   // };
 
   return (
-    <div className="bg-[#fff] min-h-screen relative overflow-hidden wrapper">
+    <div className="bg-[#fff] min-h-screen relative overflow-hidden">
       {/* Header */}
       {/* <header className="bg-[#fff] bg-opacity-80 text-[#7A7A7A] fixed top-0 left-0 w-full z-20">
         <div className="flex items-center justify-between px-[170px] py-6">

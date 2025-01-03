@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
-import Main from './Main';
-import BuyMain from './buytrees/BuyMain';
-import PaulowniaInfo from './pages/PaulowniaInfo';
+import React, { useEffect } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Main from "./Main";
+import BuyMain from "./buytrees/BuyMain";
+import PaulowniaInfo from "./pages/PaulowniaInfo";
 
 function App() {
   useEffect(() => {
@@ -11,13 +11,15 @@ function App() {
   }, []);
 
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/buymain" element={<BuyMain />} />
-        <Route path="/paulownia_info" element={<PaulowniaInfo />} />
-      </Routes>
-    </Router>
+    <div className="wrapper">
+      <Router>
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/buymain" element={<BuyMain />} />
+          <Route path="/paulownia_info" element={<PaulowniaInfo />} />
+        </Routes>
+      </Router>
+    </div>
   );
 }
 
