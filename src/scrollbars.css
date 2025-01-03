@@ -1,0 +1,16 @@
+.custom-scrollbar::-webkit-scrollbar {
+  height: 7px; /* Adjust the scrollbar thickness */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #e0e0e0; /* Adds margin above the scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #3d9e24;
+  border-radius: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #2f7b1b; /* Changes thumb color on hover */
+}
