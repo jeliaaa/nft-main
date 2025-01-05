@@ -42,8 +42,8 @@ const timelineData = [
 const BusinessPlanTimeline = () => {
   return (
     <section className="text-black py-28 px-4">
-      <h2 className="px-[130px] text-4xl py-[20px] mb-10 lg:mb-0 font-sans">
-        <span className="text-emerald-500">BUSINESS PLAN</span> OF THE PROJECT
+      <h2 className="px-[130px] text-4xl py-[20px] capitalize mb-10 lg:mb-0 font-sans">
+        <span className="text-emerald-500">bussines timeline </span> of the project
       </h2>
       <div className="max-w-screen-xl mx-auto">
         <div className="lg:flex lg:items-center lg:justify-center lg:gap-20 relative lg:mt-20">

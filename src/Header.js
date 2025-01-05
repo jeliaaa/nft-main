@@ -3,7 +3,6 @@ import { Link } from "react-router-dom"; // You can use Heroicons for the hambur
 import logo from "./assets/nftforest_logo_dark.png"; // Logo image
 import { FaBarsStaggered, FaX } from "react-icons/fa6";
 
-
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -38,17 +37,15 @@ const Header = () => {
             isMenuOpen ? "block" : "hidden"
           } xl:flex xl:items-center xl:space-x-10 text-lg absolute xl:static top-full left-0 w-full xl:w-auto bg-[#fff] xl:bg-transparent py-6 xl:py-0 px-6 xl:px-0`}
         >
-          {["Documents", "About Us", "Team", "Media", "FAQ"].map(
-            (category) => (
-              <a
-                key={category}
-                href={`#${category.toLowerCase().replace(/\s+/g, "-")}`}
-                className="block xl:inline-block text-center hover:text-gray-300 transition-colors py-2"
-              >
-                {category}
-              </a>
-            )
-          )}
+          {["About Us", "Team", "Media", "FAQ", "Benefits"].map((category) => (
+            <a
+              key={category}
+              href={`#${category.toLowerCase().replace(/\s+/g, "-")}`}
+              className="block xl:inline-block text-center hover:text-gray-300 transition-colors py-2"
+            >
+              {category}
+            </a>
+          ))}
         </nav>
 
         {/* Language Options and Button */}

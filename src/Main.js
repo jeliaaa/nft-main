@@ -14,6 +14,8 @@ import "./index.css";
 import TeamMembers from "./sections/TeamMembers";
 import Roadmap from "./sections/Roadmap";
 import SDGsSection from "./sections/SDGs";
+import Benefits from "./sections/Benefits";
+import InvestorTestimonials from "./sections/InvestorTestimonials";
 
 const Main = () => {
   // const handleNavClick = (e, category) => {
@@ -35,9 +37,9 @@ const Main = () => {
       <MainHero />
       <div id="about-us" className="h-16" />
       <WorkingPrinciple />
-      <section className="py-20 px-[170px] text-gray flex items-center justify-between">
+      <section className="py-20 px-2 lg:px-[170px] text-gray flex items-center flex-col lg:flex-row justify-between">
         {/* Left Section */}
-        <div className="max-w-[50%]">
+        <div className="lg:max-w-[50%]">
           {/* Title */}
           <h3 className="text-xl font-bold uppercase mb-4">Plot</h3>
           <h2 className="text-6xl font-bold text-emerald-500 mb-8">
@@ -69,7 +71,7 @@ const Main = () => {
           </Link>
         </div>
         {/* Right Section */}
-        <div className="w-[45%] flex justify-center">
+        <div className="lg:w-[45%] flex justify-center">
           <img
             src={xeebimiwaze}
             alt="Plot visualization"
@@ -78,10 +80,12 @@ const Main = () => {
         </div>
       </section>
       <SDGsSection />
+      <Benefits />
       <Roadmap />
       <TeamMembers />
       <BusinessPlanTimeline />
       <Diagram />
+      <InvestorTestimonials />
       <div id="media" className="h-24" />
       <MediaSection />
       <div id="videos" className="h-28"></div>

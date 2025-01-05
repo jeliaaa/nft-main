@@ -56,7 +56,7 @@ const SDGsSection = () => (
         Goals (SDGs). Currently, we are actively addressing 7 out of the 17
         SDGs.
       </p>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {Object.keys(sdgs).map((key) => (
           <div
             key={key}

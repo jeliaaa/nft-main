@@ -42,8 +42,8 @@ const MediaSection = () => {
 
   return (
     <div className="text-white sm:px-0 px-6">
-      <h1 className="text-4xl font-sans text-black mb-16 text-center">
-        <span className="text-emerald-500">MEDIA </span>ABOUT US
+      <h1 className="text-4xl font-sans text-black capitalize mb-16 text-center">
+        <span className="text-emerald-500">media </span>about us
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 place-items-center">
         {articles.map((article, index) => (

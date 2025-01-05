@@ -65,8 +65,8 @@ const FaqAccordion = () => {
 
   return (
     <section className="w-full h-full py-12 px-1 md:px-20">
-      <h2 className="text-3xl font-bold text-center text-emerald-500 mb-6">
-        ANSWERS TO FREQUENTLY ASKED QUESTIONS
+      <h2 className="text-3xl font-bold text-center capitalize text-emerald-500 mb-6">
+        asnwers to the frequently asked questions
       </h2>
       <div className="max-w-full mx-auto space-y-4">
         {faqData.map((faq, index) => (

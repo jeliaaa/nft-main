@@ -7,10 +7,10 @@
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background: #3d9e24;
+  background: #10b981;
   border-radius: 8px;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: #2f7b1b; /* Changes thumb color on hover */
+  background: #10b981; /* Changes thumb color on hover */
 }

@@ -5,7 +5,7 @@ import { FaTree } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const MainHero = () => {
   return (
-    <main className="flex relative justify-between flex-wrap px-[20px] xl:px-[170px] mt-[150px] h-[80dvh]">
+    <main className="flex relative justify-between flex-wrap px-[20px] xl:px-[170px] mt-[150px] min-h-[80dvh]">
       {/* Heading Section */}
       <div className="z-10 text-gray flex flex-col space-y-6 w-full xl:w-[50%]">
         <h1 className="text-5xl font-bold leading-tight">
@@ -82,7 +82,7 @@ const MainHero = () => {
         </div> */}
       <div className="w-1/2 h-full xl:block hidden">
         <div
-          className="w-full h-full bg-cover bg-center bg-no-repeat opacity-90"
+          className="w-full min-h-[80dvh] bg-cover bg-center bg-no-repeat opacity-90"
           style={{
             backgroundImage: `url(${tree})`,
             zIndex: "0",
