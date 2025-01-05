@@ -64,22 +64,22 @@ const FaqAccordion = () => {
   ];
 
   return (
-    <div className="w-full h-full py-12">
-      <h2 className="text-3xl font-bold text-center text-green-400 mb-6">
+    <section className="w-full h-full py-12 px-1 md:px-20">
+      <h2 className="text-3xl font-bold text-center text-emerald-500 mb-6">
         ANSWERS TO FREQUENTLY ASKED QUESTIONS
       </h2>
       <div className="max-w-full mx-auto space-y-4">
         {faqData.map((faq, index) => (
           <div
             key={index}
-            className={`border-t-2 ${openIndex === index ? 'border-green-400' : 'border-gray-700'}`}
+            className={`border-t-2 ${openIndex === index ? 'border-emerald-500' : 'border-gray-700'}`}
             onClick={() => toggleAccordion(index)} // Toggle on click
           >
             <div className="flex justify-between items-center py-4 px-6 cursor-pointer">
-              <h3 className="text-white text-lg font-semibold" style={{ marginLeft: '170px', marginRight: '170px' }}>
+              <h3 className="text-gray-500 text-lg font-semibold w-[90%]" >
                 {faq.question}
               </h3>
-              <span className="text-green-400 transition-all transform duration-300 flex items-center" style={{ marginLeft: '170px', marginRight: '170px' }}>
+              <span className="text-emerald-500 transition-all transform duration-300 flex items-center w-[10%]" >
                 {openIndex === index ? (
                   <FaTimes size={24} />
                 ) : (
@@ -95,13 +95,10 @@ const FaqAccordion = () => {
               }`}
             >
               <div className="flex items-center px-6">
-              <span className="w-2 h-2 bg-green-400 rounded-full" style={{ marginLeft: '166px', }}></span>
-
-
+              <span className="w-2 h-2 bg-emerald-500 rounded-full"></span>
                 <p
-                  className="text-white"
+                  className="text-gray-500 ml-2"
                   dangerouslySetInnerHTML={{ __html: faq.answer }}
-                  style={{ marginLeft: '15px',  }}
                 />
               </div>
             </div>
@@ -110,7 +107,7 @@ const FaqAccordion = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

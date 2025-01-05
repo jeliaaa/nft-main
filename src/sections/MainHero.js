@@ -9,7 +9,7 @@ const MainHero = () => {
       {/* Heading Section */}
       <div className="z-10 text-gray flex flex-col space-y-6 w-full xl:w-[50%]">
         <h1 className="text-5xl font-bold leading-tight">
-          Invest In A Healthy Future
+          Invest In A <span className="text-emerald-400">Healthy Future</span>
           {/* <span className="text-[#3D9E24]">by Saving the Planet</span> */}
         </h1>
         <div className="text-xl flex items-center">
@@ -22,16 +22,24 @@ const MainHero = () => {
               Participate
             </button> */}
         </div>
-        <div className="flex-col flex bg-emerald-500 rounded-md shadow-2xl w-fit p-5 items-center justify-center">
-          <img
-            src={zura}
-            alt="Zurab Meskhidze"
-            className="w-[100px] h-[100px] rounded-full border-[2px] border-gray object-cover"
-          />
-          <div className="">
-            <p className="text-gray text-center">Zurab Mekhidze</p>
-            <p className="text-[#fff] text-center">Founder of Nftforest</p>
+        <div className="w-full flex items-center justify-between">
+          <div className="flex-col flex bg-emerald-500 rounded-md shadow-2xl w-fit p-5 items-center justify-center">
+            <img
+              src={zura}
+              alt="Zurab Meskhidze"
+              className="w-[100px] h-[100px] rounded-full border-[2px] border-gray object-cover"
+            />
+            <div className="">
+              <p className="text-gray text-center">Zurab Mekhidze</p>
+              <p className="text-[#fff] text-center">Founder of Nftforest</p>
+            </div>
           </div>
+          <Link
+            className="xl:absolute xl:mt-0 mt-2 border-emerald-400 border-2 text-black font-bold p-4 rounded-lg z-20 right-10 bottom-0 hover:bg-emerald-400 hover:border-none"
+            to={"/paulownia_info"}
+          >
+            What is Paulownia?
+          </Link>
         </div>
         <div className="flex gap-4 overflow-x-auto custom-scrollbar pb-2">
           {[1, 2, 3, 4, 5, 6, 7].map((i) => (
@@ -81,12 +89,6 @@ const MainHero = () => {
           }}
         ></div>
       </div>
-      <Link
-        className="xl:absolute xl:mt-0 mt-2 border-emerald-400 border-2 text-black font-bold p-4 rounded-lg z-20 right-10 bottom-0 hover:bg-emerald-400 hover:border-none"
-        to={"/paulownia_info"}
-      >
-        What is Paulownia?
-      </Link>
 
       {/* <div className="relative z-10 mt-[120px] w-[400px] h-[250px] bg-gradient-to-b from-[#035B2E] to-[#092818] text-gray p-6 rounded-lg shadow-lg flex items-center justify-center">
           {/* Gradient Box Content */}

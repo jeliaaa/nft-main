@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom"; // You can use Heroicons for the hamburger and close icons.
 import logo from "./assets/nftforest_logo_dark.png"; // Logo image
-import { FaBurger, FaX } from "react-icons/fa6";
+import { FaBarsStaggered, FaX } from "react-icons/fa6";
 
 
 const Header = () => {
@@ -27,7 +27,7 @@ const Header = () => {
             {isMenuOpen ? (
               <FaX className="w-8 h-8" />
             ) : (
-              <FaBurger className="w-8 h-8" />
+              <FaBarsStaggered className="w-8 h-8" />
             )}
           </button>
         </div>
@@ -38,7 +38,7 @@ const Header = () => {
             isMenuOpen ? "block" : "hidden"
           } xl:flex xl:items-center xl:space-x-10 text-lg absolute xl:static top-full left-0 w-full xl:w-auto bg-[#fff] xl:bg-transparent py-6 xl:py-0 px-6 xl:px-0`}
         >
-          {["Documents", "About Us", "Business Model", "Media", "FAQ"].map(
+          {["Documents", "About Us", "Team", "Media", "FAQ"].map(
             (category) => (
               <a
                 key={category}
@@ -54,12 +54,12 @@ const Header = () => {
         {/* Language Options and Button */}
         <div className="hidden xl:flex items-center space-x-8">
           <div className="flex space-x-4">
-            <span className="text-[#3D9E24] text-lg">ENG</span>
+            <span className="text-emerald-500 text-lg">ENG</span>
             <span className="text-gray text-lg">GE</span>
           </div>
 
-          <Link to="/buymain">
-            <button className="border-2 border-[#3D9E24] text-[#3D9E24] py-3 px-8 text-lg rounded-3xl hover:bg-[#3D9E24] hover:text-gray transition-colors">
+          <Link to="https://app.nftforest.ge">
+            <button className="border-2 border-emerald-500 text-emerald-500 py-3 px-8 text-lg rounded-3xl hover:bg-emerald-500 hover:text-white transition-colors">
               Buy Trees
             </button>
           </Link>

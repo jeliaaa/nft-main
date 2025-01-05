@@ -1,12 +1,10 @@
 import React from "react";
-// Import your Bitcoin image
-import BitcoinImage from "./assets/bitcoin.webp"; // Adjust the path if necessary
-import vcru from "./assets/vcru.webp"
-import cryptoru from "./assets/cryptoru.webp"
-import bytwork from "./assets/bytwork.webp"
-import filipsvision from "./assets/filipsvision.webp"
-import morningstar from "./assets/morningstar.webp"
-
+import BitcoinImage from "../assets/bitcoin.webp";
+import vcru from "../assets/vcru.webp";
+import cryptoru from "../assets/cryptoru.webp";
+import bytwork from "../assets/bytwork.webp";
+import filipsvision from "../assets/filipsvision.webp";
+import morningstar from "../assets/morningstar.webp";
 
 const MediaSection = () => {
   const articles = [
@@ -32,7 +30,7 @@ const MediaSection = () => {
     },
     {
       image: filipsvision,
-      text: "Techbullion\n  Bridging Nature and Blockchain: Filipp Bolotov on Web3Eco’s Vision",
+      text: "Techbullion\nBridging Nature and Blockchain: Filipp Bolotov on Web3Eco’s Vision",
       link: "https://techbullion.com/bridging-nature-and-blockchain-filipp-bolotov-on-web3ecos-vision/",
     },
     {
@@ -43,41 +41,36 @@ const MediaSection = () => {
   ];
 
   return (
-    <div className="bg-[#1E1E1E] text-white py-10 px-6">
-      <h1 className="text-4xl font-sans text-white mb-16">
-        <span className="text-[#A8FF50]">MEDIA </span>ABOUT US
+    <div className="text-white sm:px-0 px-6">
+      <h1 className="text-4xl font-sans text-black mb-16 text-center">
+        <span className="text-emerald-500">MEDIA </span>ABOUT US
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 place-items-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 place-items-center">
         {articles.map((article, index) => (
           <div
             key={index}
-            className="relative bg-[#1E1E1E] border border-[#323232] rounded-[30px] shadow-lg"
-            style={{
-              width: "540px", // Box width
-              height: "300px", // Box height
-              padding: "10px", // Padding for spacing
-            }}
+            className="relative rounded-full w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] shadow-lg group overflow-hidden border border-[#323232] bg-[#1E1E1E]"
           >
             {/* Image and hover text */}
-            <div className="relative overflow-hidden w-full h-full rounded-[20px] group">
+            <div className="relative w-full h-full rounded-full overflow-hidden">
               <img
                 src={article.image}
                 alt="Article"
-                className="w-full h-full object-cover rounded-md transition-opacity duration-500 group-hover:opacity-0"
+                className="w-full h-full object-cover rounded-full transition-opacity duration-500 group-hover:opacity-0"
               />
-              {/* Text that appears on hover */}
-              <div className="absolute inset-0 flex flex-col justify-center items-center text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-6">
-                <p className="text-[#A8FF50] text-lg font-semibold uppercase mb-2 tracking-wide">
+              {/* Hover text */}
+              <div className="absolute inset-0 flex flex-col justify-center items-center text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-4">
+                <p className="text-[#A8FF50] text-sm font-semibold uppercase mb-2 tracking-wide">
                   {article.text.split("\n")[0]}
                 </p>
-                <p className="text-white text-sm font-normal px-4">
+                <p className="text-white text-xs font-normal px-2">
                   {article.text.split("\n")[1]}
                 </p>
                 <a
                   href={article.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#A8FF50] underline mt-2"
+                  className="text-[#A8FF50] underline mt-2 text-sm"
                 >
                   Read
                 </a>
