@@ -10,31 +10,31 @@ const Roadmap = () => {
       <div className="space-y-20">
         {[
           {
-            year: "2024",
+            year: "2025",
             quarter: "Q4",
             items: [
               "Restructuring with the assignment of the asset to the tokenized tree",
               "Release of a separate type of GSC security contract",
               "GSC listing on USA/EU exchanges",
-              "Launch and listing of the $ERA token",
-              "Farming (accruing) $ERA token to holders of tokenized tree",
+              "Launch and listing of our nft based token",
+              "Farming (accruing) token to holders of tokenized tree",
             ],
           },
           {
-            year: "2025",
+            year: "2026",
             quarter: "Q1",
             items: [
               "Establishing additional sources of income with the goal of $2,000 per hectare per year",
               "Tree insurance",
-              "Tokenization of Web3Eco shares",
+              "Tokenization of Nftforest shares",
               "Organization of the secondary market for tokenized tree with a floor price by years until harvesting",
               "Registration of carbon credits",
             ],
           },
           {
-            year: "2025-2029",
+            year: "2026-2029",
             quarters: ["Q3", "Q4", "Q2", "Q3", "Q4"],
-            years: ["2025", "2025", "2026", "2029", "2029"],
+            years: ["2026", "2026", "2027", "2029", "2029"],
             items: [
               "Registration of securities",
               "Registering your own exchange for security assets",

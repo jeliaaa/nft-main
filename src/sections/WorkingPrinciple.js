@@ -34,7 +34,7 @@ const steps = [
     text: (
       <>
         <span className="text-[#00F0FF]">
-          $ERA tokens are required to purchase
+          Our tokens are required to purchase
         </span>{" "}
         any tokenized assets on the platform.
       </>

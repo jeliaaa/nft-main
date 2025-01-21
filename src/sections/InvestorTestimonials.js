@@ -12,28 +12,28 @@ const investorQuotes = [
     profit: "$25,000",
     quote:
       "Investing in Paulownia trees was the best decision I ever made. The returns have been incredible!",
-    joined: "January 15, 2020",
+    joined: "January 15, 2023",
   },
   {
     name: "Emily Smith",
     profit: "$40,000",
     quote:
       "The growth rate of these trees amazed me. My investment grew faster than I imagined.",
-    joined: "March 10, 2018",
+    joined: "March 10, 2023",
   },
   {
     name: "Michael Brown",
     profit: "$30,500",
     quote:
       "Not only did I make a profit, but I also contributed to a greener planet. Win-win!",
-    joined: "August 25, 2021",
+    joined: "August 25, 2023",
   },
   {
     name: "Sophia Taylor",
     profit: "$15,000",
     quote:
       "I feel proud to be part of this sustainable investment. Highly recommend it!",
-    joined: "November 5, 2019",
+    joined: "November 5, 2023",
   },
 ];
 
@@ -77,9 +77,9 @@ export default function InvestorTestimonials() {
                   Joined: {investor.joined}
                 </div>
                 <h3 className="text-lg font-semibold">{investor.name}</h3>
-                <div className="text-green-600 font-bold">
+                {/* <div className="text-green-600 font-bold">
                   Profit: {investor.profit}
-                </div>
+                </div> */}
               </div>
             </SwiperSlide>
           ))}

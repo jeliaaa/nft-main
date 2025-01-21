@@ -8,21 +8,21 @@ const timelineData = [
     ],
   },
   {
-    year: "2025",
+    year: "2026",
     data: [
       { flag: "https://flagcdn.com/w40/es.png", description: "+1,000 HA" },
       { flag: "https://flagcdn.com/w40/md.png", description: "+10,000 HA" },
     ],
   },
   {
-    year: "2026",
+    year: "2027",
     data: [
       { flag: "https://flagcdn.com/w40/tr.png", description: "+10,000 HA" },
       { flag: "https://flagcdn.com/w40/ro.png", description: "+10,000 HA" },
     ],
   },
   {
-    year: "2027",
+    year: "2028",
     data: [
       { flag: "https://flagcdn.com/w40/es.png", description: "+10,000 HA" },
       { flag: "https://flagcdn.com/w40/ua.png", description: "+10,000 HA" },

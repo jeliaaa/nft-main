@@ -14,21 +14,22 @@ const TeamMembers = () => {
   const teamMembers = [
     {
       name: "Zurab Meskhidze",
-      role: "COO & Co-Founder",
-      description:
-        "Multi-businessman, investor. Sold the company to Richard Branson (Smile - Virgin Connect deal).",
+      role: "CEO Co-founder",
+      description: "Businessman, Entrepreneur, Founder.",
       image: zura,
     },
     {
       name: "Eric D. Wade",
-      role: "CEO & Founder",
-      description: "Leading the company's growth and partnerships from scratch.",
+      role: "CTO & Co-founder",
+      description:
+        "Leading the company's growth and partnerships from scratch.",
       image: eric,
     },
     {
       name: "Angela Davis",
       role: "CFO & Co-Founder",
-      description: "Driving the technical innovations and platform development.",
+      description:
+        "Driving the technical innovations and platform development.",
       image: angela,
     },
     {
@@ -102,7 +103,7 @@ const TeamMembers = () => {
         .swiper-button-prev {
           width: 40px;
           height: 40px;
-          background-color: #10B981;
+          background-color: #10b981;
           border-radius: 50%;
           display: flex;
           align-items: center;
@@ -125,7 +126,7 @@ const TeamMembers = () => {
           font-weight: bold;
         }
         .custom-pagination .swiper-pagination-bullet {
-          background: #10B981;
+          background: #10b981;
           opacity: 1;
           width: 10px;
           height: 10px;
@@ -133,7 +134,7 @@ const TeamMembers = () => {
           border-radius: 50%;
         }
         .custom-pagination .swiper-pagination-bullet-active {
-          background: #10B981;
+          background: #10b981;
           width: 30px;
           border-radius: 20px;
         }

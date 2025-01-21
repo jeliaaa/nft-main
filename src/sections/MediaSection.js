@@ -1,43 +1,43 @@
 import React from "react";
-import BitcoinImage from "../assets/bitcoin.webp";
-import vcru from "../assets/vcru.webp";
-import cryptoru from "../assets/cryptoru.webp";
-import bytwork from "../assets/bytwork.webp";
-import filipsvision from "../assets/filipsvision.webp";
-import morningstar from "../assets/morningstar.webp";
+import EntrepreneurImage from "../assets/entrepreneur.png";
+// import vcru from "../assets/vcru.webp";
+// import cryptoru from "../assets/cryptoru.webp";
+// import bytwork from "../assets/bytwork.webp";
+// import filipsvision from "../assets/filipsvision.webp";
+// import morningstar from "../assets/morningstar.webp";
 
 const MediaSection = () => {
   const articles = [
     {
-      image: BitcoinImage,
-      text: "medium.com\nHow to find best rwa crypto projects with potential 100x? top altcoins for crypto portfolio in 2024",
-      link: "https://medium.com/@JoshCryptoBard/how-to-find-best-rwa-crypto-projects-with-potential-100x-top-altcoind-for-crypto-portfolio-in-2024-b4775bd7671c",
+      image: EntrepreneurImage,
+      text: "entrepreneur.com\nEnvironmental Care as the Driving Force of NFT Forest and the Startup's Future Plans",
+      link: "https://www.entrepreneur.com/ka/zrdis-strategiebi/garemoze-zrunva/467558",
     },
-    {
-      image: vcru,
-      text: "VC\nHow to make money on NFTs in 2023-2024? Web3Eco. Interview with the entrepreneur who sold the company to Richard Branson",
-      link: "https://vc.ru/u/1008961-bitcoin-bard/781224-kak-zarabotat-na-nft-v-2023-2024-godu-web3eco-intervyu-s-predprinimatelem-kotoryi-prodal-kompaniyu-richardu-brensonu",
-    },
-    {
-      image: cryptoru,
-      text: "Crypto\nA real case of tokenization of land and trees through NFT. Web3Eco. How did the founders sell the largest private Internet provider in Moscow Region to Richard Branson and become involved in ecology?",
-      link: "https://crypto.ru/kejs-tokenizatsii-zemli-i-derevev-cherez-nft/",
-    },
-    {
-      image: bytwork,
-      text: "Bytwork\nHow Web3Eco sold a company with 600 employees to Richard Branson for more than 1 billion rubles. and tokenized real estate and trees through NFTs",
-      link: "https://bytwork.com/articles/web3eco",
-    },
-    {
-      image: filipsvision,
-      text: "Techbullion\nBridging Nature and Blockchain: Filipp Bolotov on Web3Eco’s Vision",
-      link: "https://techbullion.com/bridging-nature-and-blockchain-filipp-bolotov-on-web3ecos-vision/",
-    },
-    {
-      image: morningstar,
-      text: "Morningstar\nWeb3Eco Unveils the Essence of Investing in Real-World Assets via NFTs",
-      link: "https://www.morningstar.com/news/accesswire/811929msn/web3eco-unveils-the-essence-of-investing-in-real-world-assets-via-nfts",
-    },
+    // {
+    //   image: vcru,
+    //   text: "VC\nHow to make money on NFTs in 2023-2024? Web3Eco. Interview with the entrepreneur who sold the company to Richard Branson",
+    //   link: "https://vc.ru/u/1008961-bitcoin-bard/781224-kak-zarabotat-na-nft-v-2023-2024-godu-web3eco-intervyu-s-predprinimatelem-kotoryi-prodal-kompaniyu-richardu-brensonu",
+    // },
+    // {
+    //   image: cryptoru,
+    //   text: "Crypto\nA real case of tokenization of land and trees through NFT. Web3Eco. How did the founders sell the largest private Internet provider in Moscow Region to Richard Branson and become involved in ecology?",
+    //   link: "https://crypto.ru/kejs-tokenizatsii-zemli-i-derevev-cherez-nft/",
+    // },
+    // {
+    //   image: bytwork,
+    //   text: "Bytwork\nHow Web3Eco sold a company with 600 employees to Richard Branson for more than 1 billion rubles. and tokenized real estate and trees through NFTs",
+    //   link: "https://bytwork.com/articles/web3eco",
+    // },
+    // {
+    //   image: filipsvision,
+    //   text: "Techbullion\nBridging Nature and Blockchain: Filipp Bolotov on Web3Eco’s Vision",
+    //   link: "https://techbullion.com/bridging-nature-and-blockchain-filipp-bolotov-on-web3ecos-vision/",
+    // },
+    // {
+    //   image: morningstar,
+    //   text: "Morningstar\nWeb3Eco Unveils the Essence of Investing in Real-World Assets via NFTs",
+    //   link: "https://www.morningstar.com/news/accesswire/811929msn/web3eco-unveils-the-essence-of-investing-in-real-world-assets-via-nfts",
+    // },
   ];
 
   return (

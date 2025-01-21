@@ -1,7 +1,7 @@
 import React from "react";
 import zura from "../assets/zura.jpg"; // Profile image
-import tree from "../assets/tree.png"; // Tree image
-import { FaTree } from "react-icons/fa";
+import tree from "../assets/tree.jpg"; // Tree image
+// import { FaTree } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const MainHero = () => {
   return (
@@ -35,13 +35,13 @@ const MainHero = () => {
             </div>
           </div>
           <Link
-            className="xl:absolute xl:mt-0 mt-2 border-emerald-400 border-2 text-black font-bold p-4 rounded-lg z-20 right-10 bottom-0 hover:bg-emerald-400 hover:border-none"
+            className="xl:absolute xl:mt-0 mt-2 border-emerald-400 border-2 hover:bg-white hover:text-black font-bold p-4 rounded-lg z-20 right-10 bottom-0 bg-emerald-400"
             to={"/paulownia_info"}
           >
             What is Paulownia?
           </Link>
         </div>
-        <div className="flex gap-4 overflow-x-auto custom-scrollbar pb-2">
+        {/* <div className="flex gap-4 overflow-x-auto custom-scrollbar pb-2">
           {[1, 2, 3, 4, 5, 6, 7].map((i) => (
             <div className="flex-col flex-none flex border-2 border-emerald-400 rounded-md w-[200px] h-[250px] p-5 items-center justify-center">
               <FaTree
@@ -58,7 +58,7 @@ const MainHero = () => {
               </p>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
 
       {/* Tree Image Positioned Behind Button and Text */}
@@ -80,7 +80,7 @@ const MainHero = () => {
             per growth cycle.
           </p>
         </div> */}
-      <div className="w-1/2 h-full xl:block hidden">
+      <div className="w-1/2 p-5 h-full xl:block hidden">
         <div
           className="w-full min-h-[80dvh] bg-cover bg-center bg-no-repeat opacity-90"
           style={{

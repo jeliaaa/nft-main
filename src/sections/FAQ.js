@@ -22,8 +22,8 @@ const FaqAccordion = () => {
       answer: 'We provide protection through transparent blockchain technology and user agreements ensuring your investment rights.',
     },
     {
-      question: 'Tell us at the level of a simple user, what is Web3Eco?',
-      answer: 'Web3Eco allows you to invest in real-world plots of land through a decentralized tokenized platform.',
+      question: 'Tell us at the level of a simple user, what is NftForest?',
+      answer: 'NftForest allows you to invest in real-world plots of land through a decentralized tokenized platform.',
     },
     {
       question: 'How can you confirm that the site belongs to you?',
@@ -58,8 +58,8 @@ const FaqAccordion = () => {
       answer: 'Timber is sold through our certified partners, ensuring compliance with environmental regulations and providing the highest quality products to buyers.',
     },
     {
-      question: 'Is it worth becoming a user in Web3Eco if you don’t understand blockchain technologies at all?',
-      answer: 'Yes, Web3Eco is designed to be user-friendly, with easy-to-understand interfaces and support, making it accessible to both blockchain novices and experts.',
+      question: 'Is it worth becoming a user in Nftforest if you don’t understand blockchain technologies at all?',
+      answer: 'Yes, Nftforest is designed to be user-friendly, with easy-to-understand interfaces and support, making it accessible to both blockchain novices and experts.',
     }
   ];
 

@@ -1,5 +1,5 @@
 import React from "react";
-import xeebi from "../assets/xeebi.webp";
+import xeebi from "../assets/EricAndZura.jpg";
 import { Link } from "react-router-dom";
 import { FaChevronLeft } from "react-icons/fa";
 

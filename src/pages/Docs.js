@@ -1,53 +1,54 @@
 import React from "react";
-import document from "../assets/document.png";
+import PitchImg from "../assets/pitchdeck.jpg";
+import { Link } from "react-router-dom";
+import { FaChevronLeft } from "react-icons/fa";
 
 const Docs = () => {
   const documents = [
     {
-      title: "Land Auction in Uzbekistan",
-      description: "Details of the auction for land plots in Uzbekistan.",
-      date: "2024-04-01",
-      category: "Property",
-      fileType: "PDF",
-      link: "https://web3eco.io/wp-content/uploads/2024/04/Trade-register-extract.pdf",
-    },
-    {
-      title: "Certificate of Incorporation in Uzbekistan",
-      description: "Legal incorporation certificate for our Uzbekistan entity.",
+      title: "Our Pitch Deck With all the vital Information",
+      description: "View the full document.",
       date: "2024-03-15",
-      category: "Legal",
+      category: "Pitch Deck",
       fileType: "PDF",
-      link: "https://web3eco.io/wp-content/uploads/2024/04/Trade-register-extract.pdf",
+      link: "https://nftforest.ge/media/NFT-Forest.pdf",
     },
-    {
-      title: "Certificate of Incorporation in Uzbekistan",
-      description: "Legal incorporation certificate for our Uzbekistan entity.",
-      date: "2024-03-15",
-      category: "Legal",
-      fileType: "PDF",
-      link: "https://web3eco.io/wp-content/uploads/2024/04/Trade-register-extract.pdf",
-    },
-    {
-      title: "Certificate of Incorporation in Uzbekistan",
-      description: "Legal incorporation certificate for our Uzbekistan entity.",
-      date: "2024-03-15",
-      category: "Legal",
-      fileType: "PDF",
-      link: "https://web3eco.io/wp-content/uploads/2024/04/Trade-register-extract.pdf",
-    },
-    {
-      title: "Certificate of Incorporation in Uzbekistan",
-      description: "Legal incorporation certificate for our Uzbekistan entity.",
-      date: "2024-03-15",
-      category: "Legal",
-      fileType: "PDF",
-      link: "https://web3eco.io/wp-content/uploads/2024/04/Trade-register-extract.pdf",
-    },
+    // {
+    //   title: "Certificate of Incorporation in Uzbekistan",
+    //   description: "Legal incorporation certificate for our Uzbekistan entity.",
+    //   date: "2024-03-15",
+    //   category: "Legal",
+    //   fileType: "PDF",
+    //   link: "https://web3eco.io/wp-content/uploads/2024/04/Trade-register-extract.pdf",
+    // },
+    // {
+    //   title: "Certificate of Incorporation in Uzbekistan",
+    //   description: "Legal incorporation certificate for our Uzbekistan entity.",
+    //   date: "2024-03-15",
+    //   category: "Legal",
+    //   fileType: "PDF",
+    //   link: "https://web3eco.io/wp-content/uploads/2024/04/Trade-register-extract.pdf",
+    // },
+    // {
+    //   title: "Certificate of Incorporation in Uzbekistan",
+    //   description: "Legal incorporation certificate for our Uzbekistan entity.",
+    //   date: "2024-03-15",
+    //   category: "Legal",
+    //   fileType: "PDF",
+    //   link: "https://web3eco.io/wp-content/uploads/2024/04/Trade-register-extract.pdf",
+    // },
     // Add more document details here
   ];
 
   return (
     <section id="documents" className="bg-white py-16 px-8 lg:px-32">
+      <Link
+        to={"/"}
+        className="absolute flex gap-x-1 text-black items-center left-5 top-5 p-2 text-center bg-white rounded-lg border-none"
+      >
+        <FaChevronLeft color="black" />
+        Back
+      </Link>
       <h2 className="text-gray-800 text-5xl font-bold mb-10 text-center">
         <span className="text-emerald-500">Investor Documents</span>
       </h2>
@@ -64,7 +65,7 @@ const Docs = () => {
             {/* Thumbnail */}
             <div className="relative h-40 bg-gray-300 flex items-center justify-center">
               <img
-                src={document}
+                src={PitchImg}
                 alt={doc.title}
                 className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
               />
@@ -101,14 +102,14 @@ const Docs = () => {
       </div>
 
       {/* Call to Action */}
-      <div className="text-center mt-16">
+      {/* <div className="text-center mt-16">
         <a
           href="/all-documents.zip"
           className="bg-emerald-500 text-white py-3 px-8 rounded-lg shadow-lg hover:bg-emerald-600 transition-colors duration-300"
         >
           Download All Documents
         </a>
-      </div>
+      </div> */}
     </section>
   );
 };

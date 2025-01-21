@@ -1,5 +1,5 @@
 import React from "react";
-
+import vidMp4 from "../assets/video.mp4";
 const VideoGallery = () => {
   const videos = [
     {
@@ -35,6 +35,21 @@ const VideoGallery = () => {
             <div className="text-center mt-4">{video.title}</div>
           </div>
         ))}
+      </div>
+      <h4 className="text-3xl font-bold mb-8 mt-5">
+        Research on Carbon Dioxide Growth
+        <span className="text-emerald-500">Worldwide</span>
+      </h4>
+      <div>
+        <iframe
+          src={vidMp4}
+          title="Our Research"
+          className="w-full h-72 rounded-lg shadow-lg"
+          frameBorder="0"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+        <div className="text-center mt-4">Our Research</div>
       </div>
     </section>
   );

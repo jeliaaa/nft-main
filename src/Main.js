@@ -52,13 +52,13 @@ const Main = () => {
               <div className="flex">
                 <FaTree color="#10B981" size={40} />
                 <div className="text-gray ml-4 flex items-center text-xl ">
-                  600 trees
+                400 trees
                 </div>
               </div>
             </div>
 
             <div>
-              <div className="text-4xl text-emerald-500 font-bold">40 tons</div>
+              <div className="text-4xl text-emerald-500 font-bold">60 tons</div>
               <p className="text-lg ml-4 text-gray">CO2 consumption per year</p>
             </div>
           </div>
