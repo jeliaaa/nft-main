@@ -110,7 +110,7 @@ const Main = () => {
           View
         </Link>
       </section>
-      <div className="px-[170px] ">
+      <div className="lg:px-[170px] ">
         <div className="bg-[#fff] p-6 rounded-lg text-center text-gray-500">
           <h2 className="text-2xl text-gray font-bold mb-4">WHERE WE WORK</h2>
           <p className="text-gray   text-base mb-6">
