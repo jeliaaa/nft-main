@@ -30,10 +30,6 @@ const FaqAccordion = () => {
       answer: 'The site ownership is verified through a transparent decentralized system, linking users to the blockchain.',
     },
     {
-      question: 'If after 6 years such a cryptocurrency no longer exists, what guarantees does the user have of preserving and returning the invested amount and the amount of profit?',
-      answer: 'We have a built-in backup system using decentralized finance protocols to ensure that the invested amount and profit are preserved in case of market disruptions.',
-    },
-    {
       question: 'Why did you choose Paulownia?',
       answer: 'Paulownia is one of the fastest-growing tree species, making it an ideal choice for long-term investment with high yields and low environmental impact.',
     },
