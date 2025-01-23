@@ -99,7 +99,7 @@ const Main = () => {
         <h2 className="text-3xl mb-0 md:text-5xl font-bold text-center md:text-left">
           You can view all the{" "}
           <span className="text-emerald-500">
-            Documents and Legal information
+            Pitch Deck, Documents and Legal information
           </span>{" "}
           here.
         </h2>
