@@ -2,14 +2,14 @@ import React, { useState } from "react";
 
 const faqData = [
   {
-    question: "What are tokenized trees of Web3eco from a legal standpoint?",
+    question: "What are tokenized trees of NFT Forest from a legal standpoint?",
     answer:
-      "A Web3eco tokenized asset represents the right to a real tree growing on the project's plantations in Uzbekistan. The number of tokenized trees is limited to the number of actual Paulownia trees. To receive income from timber and by-products in USDT, an investor must complete KYC (Know Your Customer) and sign a service contract for tree maintenance with Web3eco AG on the investment platform's personal account by 01.01.2026",
+      "A NFT FOREST tokenized asset represents the right to a real tree growing on the project's plantation. The number of tokenized trees is limited by projects to the number of actual Paulownia trees. To receive income from timber and by-products, an investor must complete KYC (Know Your Customer) and sign a service contract for tree maintenance with our project manager",
   },
   {
     question: "Are you selling real or virtual plots of land with trees?",
     answer:
-      "We sell plots of land with trees in the real world. The trees we sell are tokenized, that is, the rights to make a profit on them are converted into tokens and entered into the blockchain. Everyone who owns the token becomes the owner of the tree and the legal right to receive the profit from the investment",
+      "We sell NFT - which represents real world asset Tree. The trees we sell are tokenized, that is, the rights to make a profit on them are converted into tokens and entered into the blockchain. Everyone who owns the token becomes the owner of the tree and the legal right to receive the profit from the investment",
   },
   {
     question: "What protection and guarantees are there for investors?",

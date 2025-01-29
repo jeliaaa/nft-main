@@ -14,48 +14,71 @@ const FaqAccordion = () => {
 
   const faqData = [
     {
-      question: 'Are you selling real or virtual plots of land with trees?',
-      answer: 'We sell plots of land with trees in the real world. <br />The trees we sell are tokenized, that is, the rights to make a profit on them are converted into tokens and entered into the blockchain.',
+      question: 'Can you explain NFT Forest in simple terms?',
+      answer: 'NFT Forest is a blockchain-based platform that allows people to invest in real trees and reforestation projects while earning returns from carbon credits and timber sales.',
     },
     {
-      question: 'What protection and guarantees are there for users?',
-      answer: 'We provide protection through transparent blockchain technology and user agreements ensuring your investment rights.',
+      question: 'Are you selling real trees or just digital assets?',
+      answer: 'NFT Forest sells real trees growing on physical land. Each tree is tokenized, meaning its ownership and profit rights are represented on the blockchain for transparency and security.',
     },
     {
-      question: 'Tell us at the level of a simple user, what is NftForest?',
-      answer: 'NftForest allows you to invest in real-world plots of land through a decentralized tokenized platform.',
+      question: 'What guarantees and protections do users have?',
+      answer: 'We ensure transparency and security through blockchain technology. Your investment is backed by real assets, and our smart contracts ensure that your ownership and profit rights are protected.',
     },
     {
-      question: 'How can you confirm that the site belongs to you?',
-      answer: 'The site ownership is verified through a transparent decentralized system, linking users to the blockchain.',
+      question: 'How can users verify the legitimacy of NFT Forest?',
+      answer: 'All our assets and transactions are recorded on a decentralized blockchain, ensuring full transparency. You can verify tree ownership and project authenticity through smart contracts and public records.',
+    },
+
+      
+    {
+      question: 'How do investors make a profit with NFT Forest?',
+      answer: 'Investors earn money through the sale of carbon credits, timber harvesting, and the appreciation of tokenized tree assets.',
+    },
+
+    {
+      question: 'Where does NFT Forest generate revenue?',
+      answer: 'NFT Forest makes revenue from carbon credit sales, timber sales, partnerships with businesses looking to offset emissions, and transaction fees on the platform.',
     },
     {
-      question: 'Why did you choose Paulownia?',
-      answer: 'Paulownia is one of the fastest-growing tree species, making it an ideal choice for long-term investment with high yields and low environmental impact.',
+      question: 'Why are tokenized assets a better investment than traditional methods?',
+      answer: 'Tokenized assets offer increased liquidity, security, and transparency. Unlike traditional investments, blockchain-based assets allow fractional ownership and real-time tracking of value.',
     },
     {
-      question: 'The user\'s profit is derived from where?',
-      answer: 'The user\'s profit comes from the sale of timber, which is tokenized and tracked through the blockchain, ensuring transparency and real-time profit distribution.',
+      question: 'Is NFT Forest a good investment if I have no blockchain knowledge?',
+      answer: 'Absolutely! Our platform is designed to be user-friendly, so you don’t need technical expertise to invest in trees and earn returns.',
     },
     {
-      question: 'The W3E profit is derived from where?',
-      answer: 'W3E profit is generated through the appreciation of the value of tokenized assets, primarily from land and timber sales.',
+      question: 'Why did NFT Forest choose Paulownia trees?',
+      answer: 'Paulownia is one of the fastest-growing trees, making it an excellent option for sustainable timber production and carbon sequestration. It offers high yields while having a low environmental impact.',
     },
     {
-      question: 'Why are tokenized assets better than the rest of crypto and traditional investments?',
-      answer: 'Tokenized assets offer more transparency, security, and liquidity compared to traditional investments, and they are fully backed by tangible real-world assets.',
+      question: 'Who is responsible for managing the trees and land?',
+      answer: 'Our certified forestry partners handle tree planting, maintenance, and harvesting, ensuring compliance with environmental standards and sustainability best practices.',
     },
     {
-      question: 'Why did you choose such a difficult business?',
-      answer: 'We chose this difficult business because it aligns with our mission to promote sustainability and build an investment ecosystem that is both profitable and environmentally responsible.',
+      question: 'Can I visit the land where my trees are growing?',
+      answer: 'Yes, NFT Forest provides GPS coordinates and tracking data for each plot. Investors may also arrange visits to partner plantations.',
     },
     {
-      question: 'Who is responsible for selling timber?',
-      answer: 'Timber is sold through our certified partners, ensuring compliance with environmental regulations and providing the highest quality products to buyers.',
+      question: 'What happens if my trees get damaged or destroyed?',
+      answer: 'We implement risk management strategies, including diversified plantations, insurance partnerships, and sustainable forestry practices to mitigate risks.',
     },
     {
-      question: 'Is it worth becoming a user in Nftforest if you don’t understand blockchain technologies at all?',
-      answer: 'Yes, Nftforest is designed to be user-friendly, with easy-to-understand interfaces and support, making it accessible to both blockchain novices and experts.',
+      question: 'How does NFT Forest use blockchain technology?',
+      answer: 'We tokenize trees and carbon credits, ensuring transparent ownership, real-time tracking, and secure transactions through blockchain.',
+    },
+    {
+      question: 'Why is blockchain important for this project?',
+      answer: 'Blockchain provides immutability, fraud prevention, and efficient digital ownership transfer, making the investment process transparent and secure.',
+    },
+    {
+      question: 'How do I track my investment?',
+      answer: 'You can monitor your trees, earnings, and environmental impact in real time via our platform, which integrates blockchain records and satellite data.',
+    },
+    {
+      question: 'What happens to my NFT if I want to sell it?',
+      answer: 'You can sell your NFT-backed tree ownership on our marketplace or other supported platforms, allowing you to exit the investment whenever you choose.',
     }
   ];
 
