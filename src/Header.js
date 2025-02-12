@@ -57,7 +57,7 @@ const Header = () => {
 
           <Link to="https://app.nftforest.ge">
             <button className="border-2 border-emerald-500 text-emerald-500 py-3 px-8 text-lg rounded-3xl hover:bg-emerald-500 hover:text-white transition-colors">
-              Buy Trees
+              Buy NFT Trees
             </button>
           </Link>
         </div>
