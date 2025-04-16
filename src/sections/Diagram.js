@@ -4,24 +4,24 @@ import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid, ResponsiveContaine
 const data = [
   {
     year: "2025",
-    income: 6.75,
-    trees: 7,
-    co2: 350,
+    income: 0.8,
+    trees: 0.02,
+    co2: 0.0,
   },
   {
-    year: "2027",
+    year: "2026",
     income: 71.1,
     trees: 25,
     co2: 1250,
   },
   {
-    year: "2029",
+    year: "2027",
     income: 287,
     trees: 50,
     co2: 250,
   },
   {
-    year: "2031",
+    year: "2028",
     income: 1500,
     trees: 75,
     co2: 310,
