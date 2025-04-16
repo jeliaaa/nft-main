@@ -4,28 +4,28 @@ const timelineData = [
   {
     year: "NOW",
     data: [
-      { flag: "https://flagcdn.com/w40/ge.png", description: "+230 HA" },
+      { flag: "https://flagcdn.com/w40/ge.png", description: "50 HA" },
     ],
   },
   {
     year: "2026",
     data: [
-      { flag: "https://flagcdn.com/w40/es.png", description: "+1,000 HA" },
-      { flag: "https://flagcdn.com/w40/md.png", description: "+10,000 HA" },
+      { flag: "https://flagcdn.com/w40/ge.png", description: "+150 HA" },
+      { flag: "https://flagcdn.com/w40/ge.png", description: "+250 HA" },
     ],
   },
   {
     year: "2027",
     data: [
-      { flag: "https://flagcdn.com/w40/tr.png", description: "+10,000 HA" },
-      { flag: "https://flagcdn.com/w40/ro.png", description: "+10,000 HA" },
+      { flag: "https://flagcdn.com/w40/ge.png", description: "+300 HA" },
+      { flag: "https://flagcdn.com/w40/ro.png", description: "+400 HA" },
     ],
   },
   {
     year: "2028",
     data: [
-      { flag: "https://flagcdn.com/w40/es.png", description: "+10,000 HA" },
-      { flag: "https://flagcdn.com/w40/ua.png", description: "+10,000 HA" },
+      { flag: "https://flagcdn.com/w40/ge.png", description: "+450 HA" },
+      { flag: "https://flagcdn.com/w40/ua.png", description: "+500 HA" },
     ],
   },
   {
