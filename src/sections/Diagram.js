@@ -10,21 +10,21 @@ const data = [
   },
   {
     year: "2026",
-    income: 71.1,
-    trees: 25,
-    co2: 1250,
+    income: 6.535,
+    trees: 0.16,
+    co2: 3,
   },
   {
     year: "2027",
-    income: 287,
-    trees: 50,
-    co2: 250,
+    income: 11.4,
+    trees: 2.8,
+    co2: 1.2,
   },
   {
     year: "2028",
-    income: 1500,
-    trees: 75,
-    co2: 310,
+    income: 18.44,
+    trees: 3.8,
+    co2: 7.2,
   },
 ];
 
