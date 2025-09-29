@@ -9,7 +9,7 @@ const MainHero = () => {
       {/* Heading Section */}
       <div className="z-10 text-gray flex flex-col space-y-6 w-full xl:w-[50%]">
         <h1 className="text-5xl font-bold leading-tight">
-          Invest In A <span className="text-emerald-400">Healthy Future</span>
+          Sponsor a Tree <span className="text-emerald-400">Own Your Impact.</span>
           {/* <span className="text-[#3D9E24]">by Saving the Planet</span> */}
         </h1>
         <div className="text-xl flex items-center">
