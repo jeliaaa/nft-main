@@ -14,7 +14,7 @@ const TeamMembers = () => {
   const teamMembers = [
     {
       name: "Zurab Meskhidze",
-      role: "CEO Co-founder",
+      role: "CEO & Co-founder",
       description: "Businessman, Entrepreneur, Founder.",
       image: zura,
     },
@@ -51,7 +51,7 @@ const TeamMembers = () => {
   return (
     <section id="team" className="w-full max-w-6xl mx-auto py-10">
       <h2 className="text-center text-black text-4xl mb-10">
-        Our <span className="text-emerald-500">Team</span>
+        GreWeCo <span className="text-emerald-500">Team</span>
       </h2>
       <Swiper
         modules={[Navigation, Pagination]}

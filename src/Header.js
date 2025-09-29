@@ -12,7 +12,7 @@ const Header = () => {
         {/* Logo */}
         <img
           src={logo}
-          alt="NFTforest"
+          alt="GreWeCo"
           className="w-16 cursor-pointer"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         />
@@ -57,7 +57,7 @@ const Header = () => {
 
           <Link to="https://app.nftforest.ge">
             <button className="border-2 border-emerald-500 text-emerald-500 py-3 px-8 text-lg rounded-3xl hover:bg-emerald-500 hover:text-white transition-colors">
-              Buy NFT Trees
+              Invest in GreWeCo
             </button>
           </Link>
         </div>

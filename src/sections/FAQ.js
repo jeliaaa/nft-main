@@ -14,42 +14,42 @@ const FaqAccordion = () => {
 
   const faqData = [
     {
-      question: 'Can you explain NFT Forest in simple terms?',
-      answer: 'NFT Forest is a blockchain-based platform that allows people to invest in real trees and reforestation projects while earning returns from carbon credits and timber sales.',
+      question: 'Can you explain GreWeCo in simple terms?',
+      answer: 'GreWeCo is a blockchain-based platform that allows people to invest in real trees and reforestation projects while earning returns from carbon credits and timber sales.',
     },
     {
       question: 'Are you selling real trees or just digital assets?',
-      answer: 'NFT Forest sells real trees growing on physical land. Each tree is tokenized, meaning its ownership and profit rights are represented on the blockchain for transparency and security.',
+      answer: 'GreWeCo sells real trees growing on physical land. Each tree is tokenized, meaning its ownership and profit rights are represented on the blockchain for transparency and security.',
     },
     {
       question: 'What guarantees and protections do users have?',
       answer: 'We ensure transparency and security through blockchain technology. Your investment is backed by real assets, and our smart contracts ensure that your ownership and profit rights are protected.',
     },
     {
-      question: 'How can users verify the legitimacy of NFT Forest?',
+      question: 'How can users verify the legitimacy of GreWeCo?',
       answer: 'All our assets and transactions are recorded on a decentralized blockchain, ensuring full transparency. You can verify tree ownership and project authenticity through smart contracts and public records.',
     },
 
       
     {
-      question: 'How do investors make a profit with NFT Forest?',
+      question: 'How do investors make a profit with GreWeCo?',
       answer: 'Investors earn money through the sale of carbon credits, timber harvesting, and the appreciation of tokenized tree assets.',
     },
 
     {
-      question: 'Where does NFT Forest generate revenue?',
-      answer: 'NFT Forest makes revenue from carbon credit sales, timber sales, partnerships with businesses looking to offset emissions, and transaction fees on the platform.',
+      question: 'Where does GreWeCo generate revenue?',
+      answer: 'GreWeCo makes revenue from carbon credit sales, timber sales, partnerships with businesses looking to offset emissions, and transaction fees on the platform.',
     },
     {
       question: 'Why are tokenized assets a better investment than traditional methods?',
       answer: 'Tokenized assets offer increased liquidity, security, and transparency. Unlike traditional investments, blockchain-based assets allow fractional ownership and real-time tracking of value.',
     },
     {
-      question: 'Is NFT Forest a good investment if I have no blockchain knowledge?',
+      question: 'Is GreWeCo a good investment if I have no blockchain knowledge?',
       answer: 'Absolutely! Our platform is designed to be user-friendly, so you don’t need technical expertise to invest in trees and earn returns.',
     },
     {
-      question: 'Why did NFT Forest choose Paulownia trees?',
+      question: 'Why did GreWeCo choose Paulownia trees?',
       answer: 'Paulownia is one of the fastest-growing trees, making it an excellent option for sustainable timber production and carbon sequestration. It offers high yields while having a low environmental impact.',
     },
     {
@@ -58,14 +58,14 @@ const FaqAccordion = () => {
     },
     {
       question: 'Can I visit the land where my trees are growing?',
-      answer: 'Yes, NFT Forest provides GPS coordinates and tracking data for each plot. Investors may also arrange visits to partner plantations.',
+      answer: 'Yes, GreWeCo provides GPS coordinates and tracking data for each plot. Investors may also arrange visits to partner plantations.',
     },
     {
       question: 'What happens if my trees get damaged or destroyed?',
       answer: 'We implement risk management strategies, including diversified plantations, insurance partnerships, and sustainable forestry practices to mitigate risks.',
     },
     {
-      question: 'How does NFT Forest use blockchain technology?',
+      question: 'How does GreWeCo use blockchain technology?',
       answer: 'We tokenize trees and carbon credits, ensuring transparent ownership, real-time tracking, and secure transactions through blockchain.',
     },
     {

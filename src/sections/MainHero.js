@@ -31,7 +31,7 @@ const MainHero = () => {
             />
             <div className="">
               <p className="text-gray text-center">Zurab Mekhidze</p>
-              <p className="text-[#fff] text-center">Founder of Nftforest</p>
+              <p className="text-[#fff] text-center">Co-Founder And CEO of GreWeCo</p>
             </div>
           </div>
           <Link

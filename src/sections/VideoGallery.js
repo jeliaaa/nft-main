@@ -19,7 +19,7 @@ const VideoGallery = () => {
   return (
     <section className=" text-white bg-gray-600 min-h-screen flex flex-col items-center p-4">
       <h1 className="text-4xl font-bold mb-8">
-        Video Gallery Of <span className="text-emerald-500">NftForest</span>
+        Video Gallery Of <span className="text-emerald-500">GreWeCo</span>
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-6xl">
         {videos.map((video) => (

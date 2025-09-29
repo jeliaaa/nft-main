@@ -26,7 +26,7 @@ const Roadmap = () => {
             items: [
               "Establishing additional sources of income with the goal of $2,000 per hectare per year",
               "Tree insurance",
-              "Tokenization of Nftforest shares",
+              "Tokenization of GreWeCo shares",
               "Organization of the secondary market for tokenized tree with a floor price by years until harvesting",
               "Registration of carbon credits",
             ],

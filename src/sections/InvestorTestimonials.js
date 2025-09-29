@@ -8,32 +8,11 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 // Mock data for investors
 const investorQuotes = [
   {
-    name: "John Doe",
-    profit: "$25,000",
+    name: "George Gvazava",
+    profit: "$1,000",
     quote:
       "Investing in Paulownia trees was the best decision I ever made. The returns have been incredible!",
-    joined: "January 15, 2023",
-  },
-  {
-    name: "Emily Smith",
-    profit: "$40,000",
-    quote:
-      "The growth rate of these trees amazed me. My investment grew faster than I imagined.",
-    joined: "March 10, 2023",
-  },
-  {
-    name: "Michael Brown",
-    profit: "$30,500",
-    quote:
-      "Not only did I make a profit, but I also contributed to a greener planet. Win-win!",
-    joined: "August 25, 2023",
-  },
-  {
-    name: "Sophia Taylor",
-    profit: "$15,000",
-    quote:
-      "I feel proud to be part of this sustainable investment. Highly recommend it!",
-    joined: "November 5, 2023",
+    joined: "September 15, 2025",
   },
 ];
 
